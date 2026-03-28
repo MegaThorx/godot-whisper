@@ -3,6 +3,11 @@
 *.o
 *.o.tmp
 *.dblite
+*.a
+
+# godot-cpp generated files (regenerated at build time)
+thirdparty/godot-cpp/gen/
+thirdparty/godot-cpp/bin/
 
 .DS_Store
 .vscode
@@ -10,7 +15,6 @@
 bin/samples/godot_whisper/addons
 bin/.godot
 *.code-workspace
-bin/addons/godot_whisper/bin/libgodot_whisper.macos.template_release.double.universal.framework/libgodot_whisper.macos.template_release.double.universal
-bin/addons/godot_whisper/bin/libgodot_whisper.macos.template_release.universal.framework/libgodot_whisper.macos.template_release.universal
+bin/addons/godot_whisper/bin/**/*.framework/libgodot_whisper*
+bin/addons/godot_whisper/bin/libgodot_whisper*.framework/
 bin/addons/godot_whisper/models
-bin/addons/godot_whisper/bin/libgodot_whisper.macos.template_release.universal.framework/libgodot_whisper.macos.template_release.universal
